@@ -1,0 +1,79 @@
+<html>
+    <head>
+            <link rel="stylesheet" type="text/css" href="estilo.css"/>
+    </head>
+
+    <body>
+        <div id="cabecalho">
+            <h1>Ficha Cadastral</h1>
+        </div>
+        <div id="corpo">
+            <fieldset>
+                <legend>Dados Pessoais:</legend>
+                <p>
+                
+                <div id="nome">
+                   <label for="nome">Nome:<br />
+                   <input type="text" name="dnome" id="nome" size="130"/>
+                   </label>
+                
+                </div>
+
+                <div id="rg">
+                   <label for="rg">RG:<br />
+                    <input type="text" name="drg" id="rg" maxlength="9"/></p>
+                    </label>
+                </div>
+
+                <div id="cpf">
+                   <label for="cpf">CPF:<br />
+                    <input type="text" name="dcpf" id="cpf" maxlength="11"  /></p>  
+                   </label>
+                </div>
+
+                <div id="endereço">
+                   <p></p>
+                   <label for="nome">Endereço:<br />
+                    <input type="text" name="dend" id="end" size="130"/>
+                    </label>
+                </div>
+
+                <div id="genero">
+                    <label for="genero">Gênero:
+                        <select>
+                            <option value="cs">Feminino</option>
+                            <option value="cc">Masculino</option>
+                        </select>
+                    </label>
+                </div>
+
+                <div id="data">
+                    <label for="data">Data de Nascimento:
+                        <input type="number" name="dt" id="data" />
+                    </label>
+                </div>
+
+                <div id="situaçao">    
+                    <p>
+                        Situação Civil:<br />
+                        <label for="facil">Solteira(o)</label>
+                        <input id="facil" type="radio" name="dificuldade" value="f"/>
+            
+                        <label for="medio">Casada(o)</label>
+                        <input id="medio" type="radio" name="dificuldade" value="m"/>
+                        
+                        <label for="dificil">Viúva(o)</label>
+                        <input id="dificil" type="radio" name="dificuldade" value="d"/>
+                        
+                    </p>
+                </div>
+                <div id="cadastro">
+                    
+                        <input type="submit" value="Cadastrar">
+                    
+                    </div>
+                
+            </fieldset>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,106 @@
+*{ 
+    padding: 0;
+    margin: 0;
+    font: 13px Arial, Verdana, Sans-Serif black;
+   
+} 
+
+#cabecalho h1{
+    color: #ddd;
+    text-align: center;
+    
+}
+
+#corpo{
+   padding: 10px;
+   margin: 0 300px 0 150px;
+   float: left;
+}
+
+#nome{
+    float: left;
+    margin: 1px 0 1px 0;
+}
+#nome input{
+    float: left;
+    margin: 0;
+    background-color: #ddd;
+}
+#rg{
+    float: left;
+    margin: 0 20px 0 0px;
+}
+#rg label{
+   float: left;
+    margin: 0;
+}
+#rg input{
+    margin: 0 200px 0 0;
+    background-color: #ddd;
+    float: left;
+}
+
+#cpf {
+    float: left;
+    margin: 0 0 0 100px ;
+}
+
+#cpf input{
+    float: left;
+    margin: 0 200px 0 0;
+    background-color: #ddd;
+}
+
+#endereço{
+    float: left;
+    margin: 0 ;
+}
+
+#endereço input{
+    background-color: #ddd;
+}
+
+#genero{
+    float: left;
+    margin: 20px 200px 20px 0;
+}
+#genero label{
+    float: left;
+    margin:0 100px 0 0 ;
+}
+
+#genero select{
+    background-color: #ddd;
+}
+
+#data{
+    float: left;
+    margin: -40px 100px 0 500px ;
+
+}
+
+#data input{
+    float: left;
+    margin: 0 0 0 0;
+    background-color: #ddd;
+
+}
+#data label{
+    float: left;
+    margin: 0 100px 0 0;
+}
+
+#situaçao{
+    float: left;
+    padding: 10px;
+}
+
+#cadastro{
+    float: left;
+    
+}
+
+#cadastro input{
+    margin: 100px 0 0 140px;
+    background-color: #ddd;
+}
